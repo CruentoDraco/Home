@@ -1,0 +1,196 @@
+body{
+    background-color: white !important;
+}
+
+.profileImage{
+    border-radius: 50%;
+    max-width:100px; 
+    max-height:100px; 
+    margin-top: .5em;
+}
+
+.mgt{
+    margin-top: 19px;
+}
+  
+.copyright{
+    text-align: center;
+}
+  
+.list-buttons {
+    margin-top:10px;
+    padding: 0 100px 0 100px;
+ }
+  
+@media only screen and (max-width: 600px) {
+    .list-buttons {
+      padding: 0 50px 0 50px !important;
+    }
+}
+
+.footer{
+	margin-top: 5% !important;
+    margin-bottom: 10px;					
+}
+
+@media (max-width: 479px) {
+	.footer{
+    	margin-top: 35% !important;
+    }
+}
+
+
+@media (max-width: 991px) {
+	
+  .profileImage{ 
+    margin-top: 1em;
+}
+  
+  .tgg{
+    margin-top: 10px;
+  }
+  
+  .git{
+    margin-top: 10px;
+  }
+  
+  .steam{
+    margin-top: 10px;
+  }
+  
+  .twitter{
+    margin-top: 10px;
+  }
+
+}
+
+.cd-title{
+	color: #00b8e6;
+}
+.cd-name{
+	color: #00b8e6;
+}
+.cd-love{
+	color: #00b8e6;
+}
+
+/*----------------- Mail-------------------- */
+#cd-email{
+	text-decoration: none;
+    float: right;
+    color:#00b8e6;
+}
+/*----------------- Mail-------------------- */
+.cd-footerline{
+  background-color:#00b8e6
+}
+
+.cd-btn-outline {
+  border-color: #00b8e6;
+  color: #00b8e6;
+}
+
+.cd-btn-outline:hover {
+  background: #00b8e6;
+  color: white;
+}
+
+.card{
+  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hover-effect{
+  transition: background-color 1s, color 1s , border-color 1s, transform 1s;
+}
+
+.hover-effect:hover{
+  transition: background-color 1s, color 1s , border-color 1s, transform 1s;
+  z-index: 1;
+  transform: scale(1.1);
+}
+
+.choice{
+  border: 2px solid #00b8e6;
+  color:#00b8e6;
+}
+
+.insta{
+  border: 2px solid #ac2bac;
+  color:#ac2bac;
+}
+
+.tgg{
+  border: 2px solid #800080;
+  color:#800080;
+}
+
+.git{
+  border: 2px solid #333;
+  color:#333;
+}
+
+.twitch{
+  border: 2px solid #6441A4;
+  color:#6441A4;
+}
+
+.steam{
+  border: 2px solid #171a21;
+  color:#171a21;
+}
+
+.twitter{
+  border: 2px solid #1DA1F2;
+  color:#1DA1F2;
+}
+
+.choice:hover{
+  background-color: #00b8e6;
+  border: 2px solid black;
+  color: white !important;
+}
+
+a:hover{
+  text-decoration: none !important;
+}
+
+.insta:hover{
+  background-color: #ac2bac;
+  border: 2px solid black;
+  color: white !important;
+}
+
+.tgg:hover{
+  background-color: #800080;
+  border: 2px solid black;
+  color: white !important;
+}
+
+.git:hover{
+  background-color: #333;
+  border: 2px solid black;
+  color: white !important;
+}
+
+.twitch:hover{
+  background-color: #6441A4;
+  border: 2px solid black;
+  color: white !important;
+}
+
+.steam:hover{
+  background-color: #171a21;
+  border: 2px solid black;
+  color: white !important;
+}
+
+.twitter:hover{
+  background-color: #1DA1F2;
+  border: 2px solid black;
+  color: white !important;
+}
+
+.header{
+  border: 2px solid #00b8e6;
+}
