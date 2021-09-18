@@ -30,7 +30,9 @@ body{
 
 .footer{
 	margin-top: 5% !important;
-    margin-bottom: 10px;					
+    margin-bottom: 10px;	
+  padding: 10px;
+  border: 2px solid #00b8e6;
 }
 
 @media (max-width: 479px) {
@@ -59,6 +61,14 @@ body{
   }
   
   .twitter{
+    margin-top: 10px;
+  }
+
+  .choice{
+    margin-top: 10px;
+  }
+
+  .releases{
     margin-top: 10px;
   }
 
@@ -96,7 +106,6 @@ body{
 }
 
 .card{
-  
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -111,6 +120,11 @@ body{
 }
 
 .choice{
+  border: 2px solid #00b8e6;
+  color:#00b8e6;
+}
+
+.releases{
   border: 2px solid #00b8e6;
   color:#00b8e6;
 }
@@ -193,4 +207,18 @@ a:hover{
 
 .header{
   border: 2px solid #00b8e6;
+}
+
+.chip{
+  display: inline-block;
+  padding: 0 25px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+}
+
+.mh{
+  min-height: 66px;
 }
