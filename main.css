@@ -124,6 +124,11 @@ body{
   color:#00b8e6;
 }
 
+.still-alive{
+  border: 2px solid #12c25e;
+  color:#12c25e;
+}
+
 .releases{
   border: 2px solid #00b8e6;
   color:#00b8e6;
@@ -161,6 +166,12 @@ body{
 
 .choice:hover{
   background-color: #00b8e6;
+  border: 2px solid black;
+  color: white !important;
+}
+
+.still-alive:hover{
+  background-color: #12c25e;
   border: 2px solid black;
   color: white !important;
 }
