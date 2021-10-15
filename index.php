@@ -27,6 +27,12 @@
 		case '/linktree' :
 			require __DIR__ . '/includes/linktree.html';
 			break;
+		case '/branding' :
+			require __DIR__ . '/includes/branding.html';
+			break;
+		case '/releases' :
+			require __DIR__ . '/includes/releases.html';
+			break;
 		default:
 			http_response_code(404);
 			require __DIR__ . '/views/404.php';
