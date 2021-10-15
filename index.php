@@ -13,13 +13,32 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
   <script type="text/javascript" src="scripts/script.js"></script>
 	<script>
-		$('document').ready(function(){
+		/*<$('document').ready(function(){
 			setPage();
-		});
+		});*/
 	</script> 
   	<title>Home | CruentoDraco</title>
 	<link rel="icon" href="images/logo.svg">
 	<link id="stylesheet" rel="stylesheet" href="main.css">
+<?php
+	$request = $_SERVER['REQUEST_URI'];
+	switch ($request) {
+		case '/' :
+			require __DIR__ . '/views/home.html';
+			break;
+		case '' :
+			require __DIR__ . '/views/home.html';
+			break;
+		case '/about' :
+			require __DIR__ . '/views/about.php';
+			break;
+		default:
+			http_response_code(404);
+			require __DIR__ . '/views/404.php';
+			break;
+	}
+
+?>
 </head>
 <body class="body">
 	<div class="container">
