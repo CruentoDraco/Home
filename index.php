@@ -24,13 +24,13 @@
 	$request = $_SERVER['REQUEST_URI'];
 	switch ($request) {
 		case '/' :
-			require __DIR__ . '/views/home.html';
+			require __DIR__ . '/includes/home.html';
 			break;
 		case '' :
-			require __DIR__ . '/views/home.html';
+			require __DIR__ . '/includes/home.html';
 			break;
-		case '/about' :
-			require __DIR__ . '/views/about.php';
+		case '/linktree' :
+			require __DIR__ . '/includes/linktree.html';
 			break;
 		default:
 			http_response_code(404);
