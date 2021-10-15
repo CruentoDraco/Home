@@ -19,10 +19,10 @@
 	$request = $_SERVER['REQUEST_URI'];
 	switch ($request) {
 		case '/' :
-			require __DIR__ . 'index.php';
+			require __DIR__ . '/index.php';
 			break;
 		case '' :
-			require __DIR__ . 'index.php';
+			require __DIR__ . '/index.php';
 			break;
 		case '/linktree' :
 			require __DIR__ . '/includes/linktree.html';
