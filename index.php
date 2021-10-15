@@ -19,10 +19,10 @@
 	$request = $_SERVER['REQUEST_URI'];
 	switch ($request) {
 		case '/' :
-			require __DIR__ . '/index.php';
+			require __DIR__ . '/includes/home.html';
 			break;
 		case '' :
-			require __DIR__ . '/index.php';
+			require __DIR__ . '/includes/home.html';
 			break;
 		case '/linktree' :
 			require __DIR__ . '/includes/linktree.html';
@@ -37,100 +37,6 @@
 </head>
 <body class="body">
 	<div class="container">
-	<div class="col-md-12">&nbsp;</div>
-  		<div id="header" class="cold-md-12">
-			  <div class="row">
-				  <div class="col-md-2">&nbsp;</div>
-					<div class="col-md-8">
-						<div class="card header">
-							<div class="card-body">
-								<div class="col-md-12">
-									<div class="row" style="text-align: center;">
-										<div class="col-md-3">
-											<img src="images/WebsiteLogos/logoBackground.svg" class="profileImage" alt="image">
-										</div>
-										<div class="col-md-9">
-											<div class="col-md-12" style="margin-top: .85em">
-												<h5 class="align-items-center mt-2 cd-title">CruentoDraco aka Rene</h5>
-											</div>
-											<div class="col-md-12">
-												<p>
-													Hi! Ich bin Rene oder eben auch als CruentoDraco bekannt. Ich bin Entwickler und Gamer mit Leidenschaft.
-												</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								
-							</div>
-						</div>
-				  </div>
-				  <div class="col-md-2">&nbsp;</div>
-			  </div>
-		</div>
-        <div id="home" class="mt-4">
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="col-lg-12 col-xs-12  text-center">
-                        <a href="https://www.stillalivethegame.de" class="card-a">
-                            <div class="card still-alive hover-effect">
-                                <div class="card-body">
-                                    <h5 class="card-title"> <img src="images/WebsiteLogos/stillalive.svg" style="height: 60px; border-radius: 50%;"></h5>
-                                    <h3> STILL ALIVE</h3>           
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-12">&nbsp;</div>
-                <div class="row">
-                    <div class="col-lg-6 col-xs-12  text-center">
-                        <a href="?site=linktree" class="card-a">
-                            <div class="card choice hover-effect">
-                                <div class="card-body">
-                                    <h5 class="card-title"> <img src="images/WebsiteLogos/LinktreeLogo.svg" style="height: 100px; border-radius: 50%;"></h5>
-									<h3>Linktree</h3>           
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-6 col-xs-12  text-center">
-                        <a href="?site=branding" class="card-a">
-                            <div class="card choice hover-effect">
-                                <div class="card-body">
-                                    <h5 class="card-title"> <img src="images/WebsiteLogos/BrandingLogo.svg" style="height: 100px; border-radius: 50%;"></h5>
-									<h3>Branding</h3>          
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-12">&nbsp;</div>
-                <div class="row">
-                    <div class="col-lg-6 col-xs-12  text-center">
-                        <a href="?site=releases" class="card-a">
-                            <div class="card choice hover-effect">
-                                <div class="card-body">
-                                    <h5 class="card-title"> <img src="images/WebsiteLogos/ReleasesLogo.svg" style="height: 100px; border-radius: 50%;"></h5>
-									<h3>Releases</h3>          
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-6 col-xs-12  text-center">
-                        <!--<a href="?site=releases" class="card-a">
-                            <div class="card choice hover-effect">
-                                <div class="card-body">
-                                    <h5 class="card-title"> <img src="images/WebsiteLogos/ReleasesLogo.svg" style="height: 100px; border-radius: 50%;"></h5>
-									<h3>Releases</h3>          
-                                </div>
-                            </div>
-                        </a>-->
-                        &nbsp;
-                    </div>
-                </div>
-            </div>
-        </div>
   		<div id="footer" class="card footer mt-5">
 			<span>
 				<h6>
