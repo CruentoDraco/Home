@@ -12,18 +12,37 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
   <script type="text/javascript" src="scripts/script.js"></script>
-	<script>
-		$('document').ready(function(){
-			setPage();
-		});
-	</script> 
   	<title>Home | CruentoDraco</title>
 	<link rel="icon" href="images/logo.svg">
 	<link id="stylesheet" rel="stylesheet" href="main.css">
+<?php
+	$request = $_SERVER['REQUEST_URI'];
+	switch ($request) {
+		case '/' :
+			require __DIR__ . '/includes/home.html';
+			break;
+		case '' :
+			require __DIR__ . '/includes/home.html';
+			break;
+		case '/linktree' :
+			require __DIR__ . '/includes/linktree.html';
+			break;
+		case '/branding' :
+			require __DIR__ . '/includes/branding.html';
+			break;
+		case '/releases' :
+			require __DIR__ . '/includes/releases.html';
+			break;
+		default:
+			http_response_code(404);
+			require __DIR__ . '/views/404.php';
+			break;
+	}
+
+?>
 </head>
 <body class="body">
 	<div class="container">
-		<div id="view"></div>
   		<div id="footer" class="card footer mt-5">
 			<span>
 				<h6>
