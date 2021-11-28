@@ -461,6 +461,7 @@ section {
   overflow: hidden;
   z-index: 1;
   background: rgba(69, 80, 91, 0.8);
+  border: 1px solid #303030;
 }
 .goodies .goodies-wrap::before {
   content: "";
@@ -489,6 +490,15 @@ section {
   justify-content: center;
   align-items: center;
 }
+
+.gslide-title{
+  color: #ff6100 !important;
+} 
+
+.gdesc-inner{
+  background: #303030;
+}
+
 .goodies .goodies-wrap .goodies-info::before {
   display: block;
   content: "";
