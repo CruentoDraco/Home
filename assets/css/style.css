@@ -571,60 +571,6 @@ section {
 }
 
 /*--------------------------------------------------------------
-# goodies Details
---------------------------------------------------------------*/
-.goodies-details {
-  padding-top: 40px;
-}
-.goodies-details .goodies-details-slider img {
-  width: 100%;
-}
-.goodies-details .goodies-details-slider .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-.goodies-details .goodies-details-slider .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid #ff6100;
-}
-.goodies-details .goodies-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ff6100;
-}
-.goodies-details .goodies-info {
-  padding: 30px;
-  box-shadow: 0px 0 30px rgba(69, 80, 91, 0.08);
-}
-.goodies-details .goodies-info h3 {
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #eee;
-}
-.goodies-details .goodies-info ul {
-  list-style: none;
-  padding: 0;
-  font-size: 15px;
-}
-.goodies-details .goodies-info ul li + li {
-  margin-top: 10px;
-}
-.goodies-details .goodies-description {
-  padding-top: 30px;
-}
-.goodies-details .goodies-description h2 {
-  font-size: 26px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-.goodies-details .goodies-description p {
-  padding: 0;
-}
-
-/*--------------------------------------------------------------
 # Setup
 --------------------------------------------------------------*/
 .setup .setup-item {
@@ -765,25 +711,15 @@ section {
 /*--------------------------------------------------------------
 # Setup Details
 --------------------------------------------------------------*/
+.setup-details-body{
+  background: #303030;
+}
 .setup-details {
   padding-top: 40px;
+  background: #303030;
 }
-.setup-details .setup-details-slider img {
+.setup-details .setup-details-img img {
   width: 100%;
-}
-.setup-details .setup-details-slider .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-.setup-details .setup-details-slider .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid #ff6100;
-}
-.setup-details .setup-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ff6100;
 }
 .setup-details .setup-info {
   padding: 30px;
@@ -825,6 +761,7 @@ section {
   transition: all ease-in-out 0.3s;
   background: #303030;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+  width: 500px;
 }
 .releases .icon-box .icon {
   margin: 0 auto;
@@ -848,7 +785,7 @@ section {
 }
 .releases .icon-box .icon svg path {
   transition: 0.5s;
-  fill: #f5f5f5;
+  fill: black;
 }
 .releases .icon-box h4 {
   font-weight: 600;
@@ -864,64 +801,28 @@ section {
   font-size: 14px;
   margin-bottom: 0;
 }
-.releases .icon-box:hover {
-  border-color: #fff;
-  box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
-}
-.releases .iconbox-blue i {
-  color: #47aeff;
-}
-.releases .iconbox-blue:hover .icon i {
-  color: #fff;
-}
-.releases .iconbox-blue:hover .icon path {
-  fill: #47aeff;
-}
 .releases .iconbox-orange i {
-  color: #ffa76e;
+  color: #ff6100;
 }
 .releases .iconbox-orange:hover .icon i {
   color: #fff;
 }
 .releases .iconbox-orange:hover .icon path {
-  fill: #ffa76e;
+  fill: #ff6100;
 }
-.releases .iconbox-pink i {
-  color: #e80368;
+.releases .icon-box .button-round{
+  border: 2px solid #ff6100;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 20px;
+  display: inline-block;
+  color: white;
 }
-.releases .iconbox-pink:hover .icon i {
-  color: #fff;
+
+.releases .icon-box .button-round:hover {
+  background: #ff6100;
 }
-.releases .iconbox-pink:hover .icon path {
-  fill: #e80368;
-}
-.releases .iconbox-yellow i {
-  color: #ffbb2c;
-}
-.releases .iconbox-yellow:hover .icon i {
-  color: #fff;
-}
-.releases .iconbox-yellow:hover .icon path {
-  fill: #ffbb2c;
-}
-.releases .iconbox-red i {
-  color: #ff5828;
-}
-.releases .iconbox-red:hover .icon i {
-  color: #fff;
-}
-.releases .iconbox-red:hover .icon path {
-  fill: #ff5828;
-}
-.releases .iconbox-teal i {
-  color: #11dbcf;
-}
-.releases .iconbox-teal:hover .icon i {
-  color: #fff;
-}
-.releases .iconbox-teal:hover .icon path {
-  fill: #11dbcf;
-}
+
 
 /*--------------------------------------------------------------
 # Contact
