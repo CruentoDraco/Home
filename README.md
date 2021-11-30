@@ -1,2 +1,2 @@
 # Home
-Just a Simple Homepage. 
+Just a Simple Homepage.
