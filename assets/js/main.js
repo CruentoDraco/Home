@@ -290,4 +290,50 @@
     })
   });
 
+  /**
+   * Modal Data Privacy Control
+   */
+   var modalDataPrivacy = document.getElementById("modal-data-privacy");
+   // Get the button that opens the modal
+   var dataPrivacyBtn = document.getElementById("data-privacy-btn");
+   // Get the <span> element that closes the modal
+   var dataPrivacySpan = document.getElementsByClassName("close")[0];
+   // When the user clicks on the button, open the modal
+   dataPrivacyBtn.onclick = function() {
+     modalDataPrivacy.style.display = "block";
+   }
+   // When the user clicks on <span> (x), close the modal
+   dataPrivacySpan.onclick = function() {
+     modalDataPrivacy.style.display = "none";
+   }
+   // When the user clicks anywhere outside of the modal, close it
+   /*window.onclick = function(event) {
+     if (event.target == modalDataPrivacy) {
+       modalDataPrivacy.style.display = "none";
+     }
+   }*/
+ 
+   /**
+    * Modal Legal Notice Control
+    */
+    var modalLegalNotice = document.getElementById("modal-legal-notice");
+    // Get the button that opens the modal
+    var legalNoticeBtn = document.getElementById("legal-notice-btn");
+    // Get the <span> element that closes the modal
+    var legalNoticeSpan = document.getElementsByClassName("close")[1];
+    // When the user clicks on the button, open the modal
+    legalNoticeBtn.onclick = function() {
+     modalLegalNotice.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    legalNoticeSpan.onclick = function() {
+     modalLegalNotice.style.display = "none";
+    }
+    // When the user clicks anywhere outside of the modal, close it
+    /*window.onclick = function(event) {
+      if (event.target == modalLegalNotice) {
+        modalLegalNotice.style.display = "none";
+      }
+    }*/
+
 })()
