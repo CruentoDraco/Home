@@ -1004,7 +1004,7 @@ section {
 
 .close:hover,
 .close:focus {
-  color: red;
+  color: #ff6100;
   text-decoration: none;
   cursor: pointer;
 }
