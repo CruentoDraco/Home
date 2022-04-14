@@ -336,7 +336,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #12c25e;
+  color: #45c212;
 }
 #still-alive p {
   color: white;
@@ -345,23 +345,29 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 #still-alive p span {
-  color: #12c25e;
+  color: #45c212;
   letter-spacing: 1px;
 }
 #still-alive .social-links {
   margin-top: 30px;
 }
-#still-alive .social-links a {
-  font-size: 24px;
-  display: inline-block;
-  color: white;
-  line-height: 1;
-  margin-right: 20px;
-  transition: 0.3s;
+
+#still-alive .social-links .btn-go-to{
+  border: 2px solid #45c212;
+  border-radius: 10px;
+  padding: 10px;
+  transition: .5s;
 }
-#still-alive .social-links a:hover {
-  color: #12c25e;
+
+#still-alive .social-links .btn-go-to:hover{
+  border-color:#ff0000;
+  background-color: #45c212;
+  box-shadow: 0 0 10px 3px #45c212; 
+  border-radius: 10px;
+  padding: 10px;
+  transition: .5s;
 }
+
 @media (max-width: 992px) {
   #still-alive {
     text-align: center;
